@@ -22,3 +22,5 @@ Blog : Cédric
 Top 5 - jeux pc tryhard + une image + une case descriptive
 Top 5 - jeux pc casual + une image + une case descriptive
 
+Nb:
+En bas des docs, éventuellement les noms d'auteurs + RGPD
