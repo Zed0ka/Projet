@@ -74,6 +74,7 @@ a:visited {
     grid-row: 2;
     grid-column: 2;
     font-size: 30px;
+    text-align: center;
 }
 #blog1 > ul {
     grid-column: 2;
@@ -81,6 +82,7 @@ a:visited {
     list-style-type: none;
     font-size: 20px;
     align-self: end;
+    text-align: center;
 }
 h2{
     grid-column: 2;
@@ -92,6 +94,12 @@ h2{
     grid-column: 1;
     grid-row: 2;
 }
+#blog1 > iframe{
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: end;
+    
+}
 #blog2{
     display: grid;
     grid-template-columns:0.5fr 1fr 0.5fr;
@@ -101,6 +109,7 @@ h2{
     grid-row: 2;
     grid-column: 2;
     font-size: 30px;
+    text-align: center;
 }
 #blog2 > ul {
     grid-column: 2;
@@ -108,10 +117,16 @@ h2{
     list-style-type: none;
     font-size: 20px;
     align-self: end;
+    text-align: center;
 }
 #blog2 > img{
     grid-column: 1;
     grid-row:2;
+}
+#blog2 > iframe{
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: end;
 }
 #blog3{
     display: grid;
@@ -122,6 +137,7 @@ h2{
     grid-row: 2;
     grid-column: 2;
     font-size: 30px;
+    text-align: center;
 }
 #blog3 > ul {
     grid-column: 2;
@@ -129,6 +145,7 @@ h2{
     list-style-type: none;
     font-size: 20px;
     align-self: end;
+    text-align: center;
 }
 #blog3 > img{
     width: 400;
@@ -136,16 +153,43 @@ h2{
     grid-column: 1;
     grid-row:2;
 }
+#blog3 > iframe{
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: right;
+}
 body{
     background-color:forestgreen;
 }
 hr {
     align-self: center;
-    grid-row: 3;
-    grid-column: 2;
     size: 8px;
     width: 1800px;
     border-style: dashed;
+}
+#formulaire{
+    display: grid;
+    grid-template-columns:0.5fr 1fr 0.5fr;
+    grid-template-rows: 1fr 1fr 0.4fr;
+    text-align: center;
+}
+form{
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 20px;
+    text-align: left;
+    border-color:black ;
+}
+#xayah{
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: right;
+    
+
+}
+#rakan{
+    grid-column:3 ;
+    grid-row: 2;
 }
 
 
