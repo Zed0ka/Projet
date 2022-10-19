@@ -5,10 +5,11 @@
             url(/fonts/ccoverbyteoffregular.otf) format(woff)      
 }
 
-body {
+#bodyaccueil {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 1fr 4fr 1fr;
+    background-image: ;
 }
 
 .homearticlebox {
@@ -22,7 +23,6 @@ body {
     align-content: stretch;
     background-color: grey;
     border-collapse: collapse;
-    
 }
 
 h1 {
@@ -92,8 +92,7 @@ footer {
 }
 
 .homep {
-    font-family:;
-    justify-self: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 a {
