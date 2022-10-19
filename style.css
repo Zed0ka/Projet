@@ -52,7 +52,7 @@ footer {
     flex : none;
 }
 
-p {
+.homep {
     font-family:;
     justify-self: center; 
 }
@@ -63,18 +63,22 @@ a {
 
 a:visited {
     color: aqua;
-    /* Code de Brayan le magnifique */
 }
+
+ /* Code de Brayan le magnifique */
+
 #blog1 {
     display: grid;
     grid-template-columns:0.5fr 1fr 0.5fr;
     grid-template-rows: 1fr 1fr 0.4fr;
 }
+
 #blog1 > p {
     grid-row: 2;
     grid-column: 2;
     font-size: 30px;
 }
+
 #blog1 > ul {
     grid-column: 2;
     grid-row: 2;
@@ -82,26 +86,31 @@ a:visited {
     font-size: 20px;
     align-self: end;
 }
+
 h2{
     grid-column: 2;
     grid-row: 1;
     text-align: center;
     font-size: 100px
 }
+
 #blog1 > img{
     grid-column: 1;
     grid-row: 2;
 }
+
 #blog2{
     display: grid;
     grid-template-columns:0.5fr 1fr 0.5fr;
     grid-template-rows:0.4fr 1fr 0.4fr;
 }
+
 #blog2 > p {
     grid-row: 2;
     grid-column: 2;
     font-size: 30px;
 }
+
 #blog2 > ul {
     grid-column: 2;
     grid-row: 2;
@@ -109,20 +118,24 @@ h2{
     font-size: 20px;
     align-self: end;
 }
+
 #blog2 > img{
     grid-column: 1;
     grid-row:2;
 }
+
 #blog3{
     display: grid;
     grid-template-columns:0.5fr 1fr 0.5fr;
     grid-template-rows:0.4fr 1fr 0.4fr;
 }
+
 #blog3 > p {
     grid-row: 2;
     grid-column: 2;
     font-size: 30px;
 }
+
 #blog3 > ul {
     grid-column: 2;
     grid-row: 2;
@@ -130,15 +143,18 @@ h2{
     font-size: 20px;
     align-self: end;
 }
+
 #blog3 > img{
     width: 400;
     height: 400;
     grid-column: 1;
     grid-row:2;
 }
+
 body{
     background-color:forestgreen;
 }
+
 hr {
     align-self: center;
     grid-row: 3;
