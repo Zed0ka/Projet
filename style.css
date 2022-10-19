@@ -5,54 +5,93 @@
             url(/fonts/ccoverbyteoffregular.otf) format(woff)      
 }
 
-#bodyaccueil {
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+}
+
+.homearticlebox {
+    grid-row: 2;
+    grid-column: 2;
     display: flex;
-    flex-flow: row wrap;
-    width: 1500px;
-    justify-content: flex-start;
+    flex-flow: column wrap;
+    height: 900px;
+    width: 900px;
+    justify-content: center stretch ;
+    align-content: stretch;
     background-color: grey;
+    border-collapse: collapse;
+    
 }
 
 h1 {
     font-family: Overbyte;
 }
 
-header {
-    width:1200px;
-    flex: none;
+.homeh2 {
+    font-size: 50px;
+    width: 800px;
+    margin: 10px;
 }
 
-article {
-    height: 200px;
-    width: 900px;
-    flex: 0 2;
+header {
+    grid-row: 1;
+    grid-column: 2 /span3;
+    width:1300px;
+    height: 100px;
+    text-align: left;
 }
 
 nav {
-    order: -1;
+    grid-row: 1;
+    grid-column: 1;
     font-display: none;
-    width: 300px;
+    width: 200px;
+    height: 100px;
 }
 
-#asidedroite {
-    order: 2;
-    height: 600px;
-    width: 300px;
+.homearticle {
+    display: block;
+    order:1;
+    width: 900px;
+    height: 300px;
+    flex: 0 2;
+    border: dotted lightblue;
+    border-collapse: collapse;
+    text-align: justify;
 }
 
 #asidegauche {
-    order: 0;
-    height: 600px;
+    grid-row: 2;
+    grid-column: 1;
+    display: block;
     width: 300px;
+    height: 900px; 
+    border: solid blue;
+    flex: none;
+}
+
+#asidedroite {
+    grid-row: 2;
+    grid-column: 3;
+    display: block;
+    width: 300px;
+    height: 900px;
+    border: solid blue; 
+    flex: none;   
 }
 
 footer {
-    width: 1200px;
-    align-self: flex-end;
-    flex : none;
+    grid-row: 3;
+    grid-column: 1 /span3;
+    display: block;
+    order: 10;
+    width: 1500px;
+    height: 100px;
 }
 
-p {
+.homep {
     font-family:;
     justify-self: center; 
 }
@@ -63,19 +102,31 @@ a {
 
 a:visited {
     color: aqua;
-    /* Code de Brayan le magnifique */
 }
+
+
+
+
+
+
+
+
+
+ /* Code de Brayan le magnifique */
+
 #blog1 {
     display: grid;
     grid-template-columns:0.5fr 1fr 0.5fr;
     grid-template-rows: 1fr 1fr 0.4fr;
 }
+
 #blog1 > p {
     grid-row: 2;
     grid-column: 2;
     font-size: 30px;
     text-align: center;
 }
+
 #blog1 > ul {
     grid-column: 2;
     grid-row: 2;
@@ -84,12 +135,14 @@ a:visited {
     align-self: end;
     text-align: center;
 }
-h2{
+
+h2 {
     grid-column: 2;
     grid-row: 1;
     text-align: center;
     font-size: 100px
 }
+
 #blog1 > img{
     grid-column: 1;
     grid-row: 2;
@@ -100,17 +153,20 @@ h2{
     justify-self: end;
     
 }
+
 #blog2{
     display: grid;
     grid-template-columns:0.5fr 1fr 0.5fr;
     grid-template-rows:0.4fr 1fr 0.4fr;
 }
+
 #blog2 > p {
     grid-row: 2;
     grid-column: 2;
     font-size: 30px;
     text-align: center;
 }
+
 #blog2 > ul {
     grid-column: 2;
     grid-row: 2;
@@ -119,10 +175,12 @@ h2{
     align-self: end;
     text-align: center;
 }
+
 #blog2 > img{
     grid-column: 1;
     grid-row:2;
 }
+
 #blog2 > iframe{
     grid-column: 3;
     grid-row: 2;
@@ -133,12 +191,14 @@ h2{
     grid-template-columns:0.5fr 1fr 0.5fr;
     grid-template-rows:0.4fr 1fr 0.4fr;
 }
+
 #blog3 > p {
     grid-row: 2;
     grid-column: 2;
     font-size: 30px;
     text-align: center;
 }
+
 #blog3 > ul {
     grid-column: 2;
     grid-row: 2;
@@ -147,6 +207,7 @@ h2{
     align-self: end;
     text-align: center;
 }
+
 #blog3 > img{
     width: 400;
     height: 400;
@@ -158,9 +219,11 @@ h2{
     grid-row: 2;
     justify-self: right;
 }
+
 body{
     background-color:forestgreen;
 }
+
 hr {
     align-self: center;
     size: 8px;
