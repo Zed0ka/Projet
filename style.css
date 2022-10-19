@@ -150,7 +150,7 @@ h2 {
 #blog1 > iframe{
     grid-column: 3;
     grid-row: 2;
-    justify-self: end;
+    justify-self: right;
     
 }
 
@@ -184,7 +184,7 @@ h2 {
 #blog2 > iframe{
     grid-column: 3;
     grid-row: 2;
-    justify-self: end;
+    justify-self: right;
 }
 #blog3{
     display: grid;
