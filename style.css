@@ -7,7 +7,9 @@
 
 #bodyaccueil {
     display: flex;
-    flex-flow: column;
+    flex-flow: row wrap;
+    width: 1500px;
+    justify-content: flex-start;
     background-color: grey;
 }
 
@@ -15,8 +17,44 @@ h1 {
     font-family: Overbyte;
 }
 
+header {
+    width:1200px;
+    flex: none;
+}
+
+article {
+    height: 200px;
+    width: 900px;
+    flex: 0 2;
+}
+
+nav {
+    order: -1;
+    font-display: none;
+    width: 300px;
+}
+
+#asidedroite {
+    order: 2;
+    height: 600px;
+    width: 300px;
+}
+
+#asidegauche {
+    order: 0;
+    height: 600px;
+    width: 300px;
+}
+
+footer {
+    width: 1200px;
+    align-self: flex-end;
+    flex : none;
+}
+
 p {
-    font-family:; 
+    font-family:;
+    justify-self: center; 
 }
 
 a {
