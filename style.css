@@ -1,3 +1,69 @@
+@font-face {
+    font-family: Overbyte ;
+    src :   url(/fonts/ccoverbyteoffregular.otf) format(woff2),
+            url(/fonts/ccoverbyteoffregular.otf) format(truetype),
+            url(/fonts/ccoverbyteoffregular.otf) format(woff)      
+}
+
+#bodyaccueil {
+    display: flex;
+    flex-flow: row wrap;
+    width: 1500px;
+    justify-content: flex-start;
+    background-color: grey;
+}
+
+h1 {
+    font-family: Overbyte;
+}
+
+header {
+    width:1200px;
+    flex: none;
+}
+
+article {
+    height: 200px;
+    width: 900px;
+    flex: 0 2;
+}
+
+nav {
+    order: -1;
+    font-display: none;
+    width: 300px;
+}
+
+#asidedroite {
+    order: 2;
+    height: 600px;
+    width: 300px;
+}
+
+#asidegauche {
+    order: 0;
+    height: 600px;
+    width: 300px;
+}
+
+footer {
+    width: 1200px;
+    align-self: flex-end;
+    flex : none;
+}
+
+p {
+    font-family:;
+    justify-self: center; 
+}
+
+a {
+    color: gold;
+}
+
+a:visited {
+    color: aqua;
+}
 #blog1 {
     display: grid;
     grid-template-columns:0.5fr 1fr 0.5fr;
@@ -79,11 +145,4 @@ hr {
     size: 8px;
     width: 1800px;
     border-style: dashed;
-}
-a:visited{
-    color:blue ;
-}
-a{
 
-    color: gold;
-}
