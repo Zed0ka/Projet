@@ -100,18 +100,11 @@ a {
 }
 
 a:visited {
-    color: aqua;
+    color: blue;
 }
 
-
-
-
-
-
-
-
-
  /* Code de Brayan le magnifique */
+ /* Page du Blog */
 
 #blog1 {
     display: grid;
@@ -220,7 +213,8 @@ h2 {
 }
 
 body{
-    background-color:forestgreen;
+    background: linear-gradient(90deg, rgba(180,96,33,1) 0%, rgba(251,217,125,1) 41%, rgba(254,253,251,1) 100%);
+
 }
 
 hr {
@@ -229,9 +223,10 @@ hr {
     width: 1800px;
     border-style: dashed;
 }
+/*Page de contact*/
 #formulaire{
     display: grid;
-    grid-template-columns:0.5fr 1fr 0.5fr;
+    grid-template-columns:1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 0.4fr;
     text-align: center;
 }
@@ -247,11 +242,11 @@ form{
     grid-row: 2;
     justify-self: right;
     
-
 }
 #rakan{
     grid-column:3 ;
     grid-row: 2;
 }
+
 
 
