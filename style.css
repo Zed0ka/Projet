@@ -5,7 +5,7 @@
             url(/fonts/ccoverbyteoffregular.otf) format(woff)      
 }
 
-body {
+#bodyaccueil {
     display: flex;
     flex-flow: column;
     background-color: grey;
