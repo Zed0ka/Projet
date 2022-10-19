@@ -63,6 +63,7 @@ a {
 
 a:visited {
     color: aqua;
+    /* Code de Brayan le magnifique */
 }
 #blog1 {
     display: grid;
@@ -145,4 +146,6 @@ hr {
     size: 8px;
     width: 1800px;
     border-style: dashed;
+}
+
 
