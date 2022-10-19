@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Overbyte ;
+    src :   url(/fonts/ccoverbyteoffregular.otf) format(woff2),
+            url(/fonts/ccoverbyteoffregular.otf) format(truetype),
+            url(/fonts/ccoverbyteoffregular.otf) format(woff)      
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    background-color: grey;
+}
+
+h1 {
+    font-family: Overbyte;
+}
+
+p {
+    font-family:; 
+}
+
+a {
+    color: gold;
+}
+
+a:visited {
+    color: aqua;
+}
