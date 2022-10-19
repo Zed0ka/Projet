@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="monProgramme.php">
+        <fieldset>
+            <legend>Formulaire de contact</legend>
+            <fieldset>
+                <legend>Information personelle</legend>
+                <label for="prenom">Prénom:</label>
+                <input type="text" name="prenom" placeholder="Entrez votre prénom" maxlength="20" id="prenom"/>
+                <br>
+                <label for="nom">Nom:</label>
+                <input type="text" name="nom" placeholder="Entrez votre nom" maxlength="20" id="prenom"/>
+                <br>
+                <label for="email">Mail:</label>
+                <input type="email" name="email" placeholder="Entrez votre email" maxlength="40" id="email"/>
+                <br>
+                <label for="password">Mot de passe:</label>
+                <input type="password" name="password" placeholder="Entrez votre mdp" maxlength="35" id="password" required/>
+                <br>
+                <label for="age">Âge:</label>
+                <input type="number" name="nombre" placeholder="Entrez votre Âge" maxlength="2" id="nombre"/>
+                <br>
+                <label for="liste"> Quel est votre genre?</label>
+                <select name="liste" id="liste">
+                    <optgroup label="Choississez ci-dessous">
+                        <option value="option1">Homme</option>
+                        <option value="option2">Femme</option>
+                        <option value="option3">Autre</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Quel type de joueur êtes vous?</legend>
+                <input type="checkbox" checked id="checkbox"/> <label for="checkbox">Le tryhardeur: une espèce sans émotion qui joue que pour la victoire.</label>
+                <br>
+                <input type="checkbox" id="checkbox2"/> <label for="checkbox">Le joueur lambda: Vous n'avez pas forcément de façon de jouer, vous jouez seulement pour votre plaisir.</label>
+                <br>
+                <input type="checkbox" id="checkbox3"/> <label for="checkbox">La chillance: Votre seul but, passer un bon moment tout en jouant seul ou avec vos amis.</label>
+                <br>
+                <input type="checkbox" id="checkbox4"/> <label for="checkbox">Le joueur ocassionnel: Vous jouez que très rarement, normal en même temps car vous avez une vie.</label>
+             </fieldset>
+            <br>
+            <fieldset>
+                <legend>Question divers</legend>
+                <label for="liste"> Quel est votre rang sur Overwatch</label>
+                <select name="liste" id="liste">
+                    <optgroup label="Choississez ci-dessous">
+                        <option value="option1">Bronze</option>
+                        <option value="option2">Argent</option>
+                        <option value="option3">Or</option>
+                        <option value="option1">Platine</option>
+                        <option value="option2">Diamant</option>
+                        <option value="option3">Maître</option>
+                        <option value="option1">Grand maître</option>
+                        <option value="option2">Top 500</option>
+                    </optgroup>
+                </select>
+                <br>
+                <label for="liste"> Quel est votre rang sur League of Legends</label>
+                <select name="liste" id="liste">
+                    <optgroup label="Choississez ci-dessous">
+                        <option value="option1">Iron</option>
+                        <option value="option2">Bronze</option>
+                        <option value="option3">Silver</option>
+                        <option value="option1">Gold</option>
+                        <option value="option2">Platine</option>
+                        <option value="option3">Diamant</option>
+                        <option value="option1">Master</option>
+                        <option value="option2">Grand Master</option>
+                        <option value="option2">Challenger</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Section commentaire:</legend>
+                <label for="numero">Si vous avez un avis ou un commentaire à nous faire parvenir, c'est ici:</label>
+                <br>
+                <textarea type="text" name="commentary" placeholder="Entrez votre texte" maxlength="299" id="commentary" rows="20" cols="100"></textarea>
+            </fieldset>
+        </fieldset>
+    </form>  
+</body>
+</html>

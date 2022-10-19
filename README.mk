@@ -21,6 +21,9 @@ Boutons validation
 Blog : Cédric
 Top 5 - jeux pc tryhard + une image + une case descriptive
 Top 5 - jeux pc casual + une image + une case descriptive
+1er jeux - elden ring
+2ieme - Journey
+3ieme - The Planet Crafter
 
 Nb:
 En bas des docs, éventuellement les noms d'auteurs + RGPD
