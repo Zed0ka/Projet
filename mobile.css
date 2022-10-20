@@ -208,26 +208,24 @@ footer p {
 }
 
 body{
-    background: linear-gradient(90deg, rgba(180,96,33,1) 0%, rgba(251,217,125,1) 41%,red 100%) no-repeat ;
+    background: #b0acac ;
 
 }
 
 hr {
     align-self: center;
     size: 1vh;
-    width: 100vw;  
+    width: 120vw; 
+    margin-left: 45%; 
     border-style: dashed;
 }
-.footerBrayan{
-    display: grid;
-    grid-column:2;
-    grid-row: 3;
-    background-color: gold  ;
-    color: #fff;
+.footerBrayan{   /*Footer renommé pour pas défoncer littéralement la page d'accueil*/
+    display: flex;
+    background-color: #b0acac;
     text-align: center;
-    justify-self: end;
-    padding-top: 50px;
-    border:red solid 2px;
-    margin-left: 5vw;
-    width: 90vw;
+    border: black; solid 2px;
+    margin-left: 25vw;
+    width: 150vw;
+    height: 20vh;
+    flex-direction: flex-start;
 }

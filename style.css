@@ -272,7 +272,7 @@ a:visited {
 }
 
 body{
-    background: linear-gradient(90deg, rgba(180,96,33,1) 0%, rgba(251,217,125,1) 41%, red 100%) no-repeat ;
+    background: #b0acac ;
 
 }
 
@@ -288,7 +288,7 @@ hr {
 #formulaire{
     display: grid;
     grid-template-columns:0.5fr 1fr 0.5fr;
-    grid-template-rows: 1fr 1fr 0.4fr;
+    grid-template-rows: 0.4fr 1fr 0.4fr;
     text-align: center;
 }
 form{
@@ -310,15 +310,10 @@ form{
 }
 
 .footerBrayan{   /*Footer renommé pour pas défoncer littéralement la page d'accueil*/
-        display: grid;
-        grid-column:2;
-        grid-row: 3;
-        background-color: gold  ;
-        color: #fff;
+        background-color: #b0acac;
         text-align: center;
-        justify-self: end;
         padding-top: 50px;
-        border:red solid 2px;
+        border:black solid 2px;
         margin-left: 5vw;
         width: 90vw;
 }
