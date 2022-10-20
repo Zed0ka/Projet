@@ -1,0 +1,32 @@
+
+#blog1 {
+    display: grid;
+    grid-template-columns:0.5fr 1fr 0.5fr;
+    grid-template-rows: 1fr 1fr 0.4fr;
+}
+
+#blog1 > p {
+    grid-row: 2;
+    grid-column: 2;
+    font-size: 30px;
+    text-align: center;
+}
+
+#blog1 > ul {
+    grid-column: 2;
+    grid-row: 2;
+    list-style-type: none;
+    font-size: 20px;
+    align-self: end;
+    text-align: center;
+}
+#blog1 > img{
+    grid-column: 1;
+    grid-row: 2;
+}
+#blog1 > iframe{
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: right;
+    
+}
