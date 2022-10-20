@@ -5,7 +5,7 @@
         url(fonts/ccoverbyteoffregular.otf) format(woff),     
 }
 
-#bodyaccueil {
+#homebody {
     background-image: url(img_home/SFstage01.jpg);
     background-repeat: no-repeat;
     background-size: 2000px 1600px;
@@ -51,6 +51,9 @@ nav {
     font-display: none;
     width: 200px;
     height: 100px;
+    background-color: gray;
+    border: solid black 2px;
+    box-shadow: 10px 10px black;
 }
 
 .homearticle {
@@ -58,9 +61,8 @@ nav {
     width: 900px;
     height: 300px;
     flex: 0 2;
-    border: dotted lightblue;
-    border-collapse: collapse;
     text-align: justify;
+    border-bottom: solid black;
 }
 
 #asidegauche {
@@ -70,6 +72,7 @@ nav {
     width: 300px;
     height: 900px; 
     border: solid blue;
+    margin-left: 30px;
 }
 
 #asidedroite {
@@ -79,7 +82,7 @@ nav {
     width: 300px;
     height: 900px;
     border: solid blue;
-
+    margin-left: 40px;
 }
 
 footer {
@@ -212,14 +215,11 @@ h2 {
     justify-self: right;
 }
 
-<<<<<<< HEAD
-=======
 body{
     background: linear-gradient(90deg, rgba(180,96,33,1) 0%, rgba(251,217,125,1) 41%, rgba(254,253,251,1) 100%);
 
 }
 
->>>>>>> 46932da267f826e8bbdb9049afbc260a14905f41
 hr {
     align-self: center;
     size: 8px;
