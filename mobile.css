@@ -1,32 +1,124 @@
 
 #blog1 {
     display: grid;
-    grid-template-columns:0.5fr 1fr 0.5fr;
+    grid-template-columns:0.5fr 1fr;
     grid-template-rows: 1fr 1fr 0.4fr;
 }
 
 #blog1 > p {
-    grid-row: 2;
-    grid-column: 2;
-    font-size: 30px;
+    grid-row: 3;
+    grid-column: 1;
+    font-size: 2vh;
     text-align: center;
 }
 
 #blog1 > ul {
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 3;
     list-style-type: none;
-    font-size: 20px;
-    align-self: end;
+    font-size: 2vh;
+    align-self: start;
     text-align: center;
 }
 #blog1 > img{
     grid-column: 1;
     grid-row: 2;
+    justify-self: left;
 }
 #blog1 > iframe{
-    grid-column: 3;
+    grid-column: 2;
     grid-row: 2;
     justify-self: right;
     
+}
+
+#blog2{
+    display: grid;
+    grid-template-columns:0.5fr 1fr;
+    grid-template-rows:0.4fr 1fr 0.4fr;
+}
+
+#blog2 > p {
+    grid-row: 3;
+    grid-column: 1;
+    font-size: 2vh;
+    text-align: center;
+}
+
+#blog2 > ul {
+    grid-column: 2;
+    grid-row: 3;
+    list-style-type: none;
+    font-size: 2vh;
+    align-self: start;
+    text-align: center;
+}
+
+#blog2 > img{
+    grid-column: 1;
+    grid-row:2;
+}
+
+#blog2 > iframe{
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: right;
+}
+#blog3{
+    display: grid;
+    grid-template-columns:0.5fr 1fr;
+    grid-template-rows:0.4fr 1fr 0.4fr;
+}
+
+#blog3 > p {
+    grid-row: 3;
+    grid-column: 1;
+    font-size: 2vh;
+    text-align: center;
+}
+
+#blog3 > ul {
+    grid-column: 2;
+    grid-row: 3;
+    list-style-type: none;
+    font-size: 2vh;
+    align-self: start;
+    text-align: center;
+}
+
+#blog3 > img{
+    width: 400;
+    height: 400;
+    grid-column: 1;
+    grid-row:2;
+}
+#blog3 > iframe{
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: right;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(180,96,33,1) 0%, rgba(251,217,125,1) 41%,red 100%) no-repeat ;
+
+}
+
+hr {
+    align-self: center;
+    size: 1vhx;
+    width: 100vw;  
+    border-style: dashed;
+}
+.footerBrayan{
+    display: grid;
+    grid-column:2;
+    grid-row: 3;
+    background-color: gold  ;
+    color: #fff;
+    text-align: center;
+    justify-self: end;
+    padding-top: 50px;
+    border:red solid 2px;
+    margin-left: 5vw;
+    width: 90vw;
 }
