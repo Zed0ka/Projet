@@ -8,7 +8,7 @@
 #homebody {
     background-image: url(img_home/SFstage01.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 150vh;
+    background-size: 2000px 1600px;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 1fr 4fr 1fr;
@@ -63,7 +63,7 @@ nav {
     border: dotted lightblue;
     border-collapse: collapse;
     text-align: justify;
-    border-bottom: double black 2px;
+    border-bottom: solid black;
 }
 
 #asidegauche {
@@ -131,13 +131,6 @@ a:visited {
     align-self: end;
     text-align: center;
 }
-
-#blog1 > #banniere {
-    grid-column: 2;
-    grid-row: 1 / span3;
-    text-align: center;
-}
-
 #blog1 > img{
     grid-column: 1;
     grid-row: 2;
@@ -216,7 +209,7 @@ a:visited {
 }
 
 body{
-    background: linear-gradient(90deg, rgba(180,96,33,1) 0%, rgba(251,217,125,1) 41%, rgba(254,253,251,1) 100%);
+    background: linear-gradient(90deg, rgba(180,96,33,1) 0%, rgba(251,217,125,1) 41%, rgba(254,253,251,1) 100%) no-repeat;
 
 }
 
@@ -250,6 +243,20 @@ form{
     grid-column:3 ;
     grid-row: 2;
 }
+footer{
+        display: grid;
+        grid-column:2;
+        grid-row: 3;
+        background-color: gold  ;
+        color: #fff;
+        text-align: center;
+        justify-self: end;
+        padding-top: 50px;
+        border:red solid 2px;
+}
+
+
+
 
 
 
