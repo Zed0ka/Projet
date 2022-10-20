@@ -5,7 +5,10 @@
             url(/fonts/ccoverbyteoffregular.otf) format(woff)      
 }
 
-#bodyaccueil {
+#homebody {
+    background-image: url(img_home/SFstage01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 150vh;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 1fr 4fr 1fr;
@@ -60,6 +63,7 @@ nav {
     border: dotted lightblue;
     border-collapse: collapse;
     text-align: justify;
+    border-bottom: double black 2px;
 }
 
 #asidegauche {
