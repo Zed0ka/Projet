@@ -8,15 +8,20 @@
 }
 
 /* Bannière des pages du site "Shoryu not shoryu"*/
-
+/* basculer les images sur le html, plus facile à organiser - revoir le responsive de l'accueil*/
 header {
+    position: relative sticky;
     width: 53vw;
     height: 12vh;
     border: solid black 2px;
     background-image: url(img_home/ShoryuHeader.png);
+    background-repeat: no-repeat;
+    background-position: 50% 3%;
+    background-size: cover;
 }
 
 .headerh1 {
+    position: relative;
     font-family: Overbyte;
     font-size: 40px;
     margin:0;
@@ -25,13 +30,17 @@ header {
 }
 
 .headerh2 {
+    position: relative;
     font-size: 50px;
     text-align: right;
     margin: 0px;
     margin-right: 1vw;
+    right: 0.5vw;
+    overflow: hidden;
 }
 
 .headerh3 {
+    position: absolute;
     grid-row: 1;
     grid-column: 2 /span3;
     margin: 2px;
@@ -40,7 +49,7 @@ header {
 
 /*Slot de navigation*/
 
-nav {
+.homenav {
     width: 12.5vw;
     height: 12vh;
     grid-row: 1;
@@ -51,7 +60,7 @@ nav {
     box-shadow: 10px 10px gray;
 }
 
-ul {
+.homenav ul {
     list-style: none;
     margin-left: 3vh;
 }
@@ -59,6 +68,7 @@ ul {
 /* Footer des pages du site "Shoryu not shoryu"*/
 
 footer {
+    position: relative;
     grid-row: 3;
     grid-column: 1 /span3;
     display: block;
@@ -72,6 +82,7 @@ footer {
 #homeBody {
     background-image: url(img_home/SFstage01.jpg);
     background-repeat: no-repeat;
+    object-fit: cover;
     background-size: 100vw 150vh;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -80,48 +91,45 @@ footer {
 
 .homeh2 {
     font-size: 50px;
-    width: 800px;
+    width: 50vw;
     margin: 10px;
 }
 
-/*Container des aide à la navigation pour le site (articles)*/
+/*Container des articles de la page home*/
 
 .homearticlebox {
     grid-row: 2;
     grid-column: 2;
     display: flex;
     flex-flow: column wrap;
-    justify-content: center stretch;
+    justify-content: space-around;
     border-collapse: collapse;
+    background-color:rgba(0, 0, 0, 0.411);
+    color: lightgrey;
+    overflow-y: scroll;
 }
 
 .homearticle {
-    display: block;
     order:1;
     width: 53vw;
     height: 25vh;
     flex: 0 2;
-    border-collapse: collapse;
     text-align: justify;
-    border-bottom: solid black;
-    background-image: linear-gradient(red orange yellow black);
 }
 
 #asidegauche {
     grid-row: 2;
     grid-column: 1;
-    display: block;
-    max-width: 300px;
-    max-height: 900px; 
+    max-width: 25vw;
+    max-height: 66vh; 
     margin-left: 3vw;
 }
 
 #asidedroite {
     grid-row: 2;
     grid-column: 3;
-    display: block;
-    max-width: 300px;
-    max-height: 900px;
+    max-width: 25vw;
+    max-height: 66vh;
     margin-left: 3vw;
 }
 
@@ -138,6 +146,29 @@ a:visited {
 }
 
 /* Page Gallerie */
+/* responsive à faire + essayer de mettre en place un caroussel un peu joli (flèches/boutons avec aperçu central et colonne de miniatures ou juste une grid full d'images avec bordures et tout) */
+
+.rouleau img {
+    display: block;
+    max-width: 25vw;
+    max-height: 25vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-bottom: 2vh;
+}
+
+.rouleau {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
+.gallerie {
+    overflow: scroll;
+    grid-column: 2;
+    image-resolution: 800px 800px;
+}
 
  /* Code de Brayan*/
  /* Page du Blog */

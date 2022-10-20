@@ -1,4 +1,113 @@
+/* code de Cédric */
 
+/* Ajustement Bannière */
+header {
+    width: 60vw;
+    height: 13vh;
+    border: solid black 2px;
+    background-image: url(img_home/ShoryuHeader.png);
+}
+
+.headerh1 {
+    font-family: Overbyte;
+    font-size: 25px;
+    margin:0;
+    margin-bottom: 0vh;
+    padding-left: 5vw;
+}
+
+.headerh2 {
+    font-size: 25px;
+    text-align: right;
+    margin: 0px;
+    margin-right: 1vw;
+    right: 5vw;
+    top: 6vh;
+}
+
+.headerh3 {
+    grid-row: 1;
+    grid-column: 1;
+    margin: 0px;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-decoration: solid underline;
+}
+/* Ajustement Navigation */
+
+nav {
+    width: 25vw;
+    height: 13vh;
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: 3vw;
+    background-color: darkgray;
+    border: solid lightgray 2px;
+    box-shadow: 10px 10px gray;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0vh;
+    padding-left: 0vh;
+}
+
+/* Page Home */
+
+#homeBody {
+    grid-template-columns: 35vw 65vw;
+    grid-template-rows: 15vh 83vh 2vh;
+    background-size: 100vw 106vh;
+    margin-left: 0;
+}
+
+aside {
+    display: none;
+}
+
+footer {
+    grid-column: 1 /span 2;
+    grid-row: 3;
+}
+
+.homearticlebox {
+    grid-row: 2;
+    grid-column: 1 /span 2;
+    width: 99vw;
+    height: 90vh;
+    flex-flow: column nowrap;
+    justify-content: flex-start space-between;
+    background-color:rgba(0, 0, 0, 0.411);
+    color: lightgrey;
+    margin: 0;
+    margin-bottom: 1vh;
+    border-color: white;
+    overflow: scroll;
+}
+
+.homearticle {
+    width : 98vw;
+    height : 75vh;
+    margin: 0;
+    margin-left: 1vh;
+}
+
+.homeh2 {
+    font-size: large;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+}
+
+/* Page Gallerie */
+
+/* Code de Brayan */
 #blog1 {
     display: grid;
     grid-template-columns:0.5fr 1fr;
@@ -105,7 +214,7 @@ body{
 
 hr {
     align-self: center;
-    size: 1vhx;
+    size: 1vh;
     width: 100vw;  
     border-style: dashed;
 }
