@@ -3,7 +3,7 @@
 /* Ajustement Bannière */
 header {
     width: 60vw;
-    height: 13vh;
+    height: 15vh;
     border: solid black 2px;
     background-image: url(img_home/ShoryuHeader.png);
 }
@@ -36,15 +36,15 @@ header {
 }
 /* Ajustement Navigation */
 
-nav {
+.homenav {
     width: 25vw;
-    height: 13vh;
+    height: 15vh;
     grid-row: 1;
     grid-column: 1;
     margin-left: 3vw;
     background-color: darkgray;
     border: solid lightgray 2px;
-    box-shadow: 10px 10px gray;
+    box-shadow: 1px 1px gray;
 }
 
 ul {
@@ -57,7 +57,7 @@ ul {
 
 #homeBody {
     grid-template-columns: 35vw 65vw;
-    grid-template-rows: 15vh 83vh 2vh;
+    grid-template-rows: 15vh 90vh 2vh;
     background-size: 100vw 106vh;
     margin-left: 0;
 }
@@ -66,15 +66,17 @@ aside {
     display: none;
 }
 
-footer {
+.homeFooter {
     grid-column: 1 /span 2;
     grid-row: 3;
+    width: 98vw;
+    height: 4vh;
 }
 
 .homearticlebox {
     grid-row: 2;
     grid-column: 1 /span 2;
-    width: 99vw;
+    width: 98vw;
     height: 90vh;
     flex-flow: column nowrap;
     justify-content: flex-start space-between;
@@ -83,7 +85,6 @@ footer {
     margin: 0;
     margin-bottom: 1vh;
     border-color: white;
-    overflow: scroll;
 }
 
 .homearticle {
@@ -95,7 +96,7 @@ footer {
 
 .homeh2 {
     font-size: large;
-    width: 100vw;
+    width: 98vw;
     margin: 0px;
     padding: 0px;
 }
@@ -106,6 +107,19 @@ footer p {
 }
 
 /* Page Gallerie */
+
+.rouleau {
+    grid-column:1 /span 2;
+    grid-row: 2;
+    min-height: 99vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    overflow: scroll;
+    background-color:rgba(0, 0, 0, 0.411);
+    color: lightgrey;
+    
+}
 
 /* Code de Brayan */
 #blog1 {
