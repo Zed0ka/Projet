@@ -237,7 +237,7 @@ hr {
     display: flex;
     background-color: #b0acac;
     text-align: center;
-    border: black; solid 2px;
+    border: black solid 2px;
     margin-left: 50%;
     width: 150vw;
     height: 20vh;
