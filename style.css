@@ -8,9 +8,8 @@
 }
 
 /* Bannière des pages du site "Shoryu not shoryu"*/
-/* basculer les images sur le html, plus facile à organiser - revoir le responsive de l'accueil*/
 header {
-    position: relative sticky;
+    position: absolute sticky;
     width: 53vw;
     height: 12vh;
     border: solid black 2px;
@@ -42,7 +41,7 @@ header {
 .headerh3 {
     position: absolute;
     grid-row: 1;
-    grid-column: 2 /span3;
+    grid-column: 2 /span 3;
     margin: 2px;
     text-align: center;
 }
@@ -50,7 +49,8 @@ header {
 /*Slot de navigation*/
 
 .homenav {
-    width: 12.5vw;
+    position : relative;
+    width: 12vw;
     height: 12vh;
     grid-row: 1;
     grid-column: 1;
@@ -67,14 +67,18 @@ header {
 
 /* Footer des pages du site "Shoryu not shoryu"*/
 
-footer {
+.homeFooter {
     position: relative;
     grid-row: 3;
-    grid-column: 1 /span3;
+    grid-column: 2;
     display: block;
     order: 10;
-    width: 100vw;
-    height: 5vh;
+    width: 53vw;
+    height: 10vh;
+    background-color:rgba(0, 0, 0, 0.411);
+    margin:0;
+    text-align: center;
+    color: lightgray;
 }
 
 /*Page Home (accueil)*/
@@ -86,7 +90,7 @@ footer {
     background-size: 100vw 150vh;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-rows: 0.5fr 4fr 1fr;
 }
 
 .homeh2 {
@@ -98,15 +102,16 @@ footer {
 /*Container des articles de la page home*/
 
 .homearticlebox {
+    top: 25vh;
     grid-row: 2;
     grid-column: 2;
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     border-collapse: collapse;
     background-color:rgba(0, 0, 0, 0.411);
     color: lightgrey;
-    overflow-y: scroll;
+    overflow: scroll;
 }
 
 .homearticle {
@@ -146,6 +151,22 @@ a:visited {
 }
 
 /* Page Gallerie */
+
+.galleryBody {
+        background-image: url(img_home/SFstage01.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: 100vw 150vh;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 0.5fr 4fr 1fr;
+}
+
+.homenav ul {
+    list-style: none;
+    margin-left: 3vh;
+}
+
 /* responsive à faire + essayer de mettre en place un caroussel un peu joli (flèches/boutons avec aperçu central et colonne de miniatures ou juste une grid full d'images avec bordures et tout) */
 
 .rouleau img {
@@ -154,20 +175,19 @@ a:visited {
     max-height: 25vh;
     overflow-y: scroll;
     overflow-x: hidden;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
 }
 
 .rouleau {
+    grid-column:2;
+    grid-row: 2;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     overflow: scroll;
-}
-
-.gallerie {
-    overflow: scroll;
-    grid-column: 2;
-    image-resolution: 800px 800px;
+    background-color:rgba(0, 0, 0, 0.411);
+    color: lightgrey;
 }
 
  /* Code de Brayan*/
