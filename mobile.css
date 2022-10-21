@@ -224,8 +224,43 @@ hr {
     background-color: #b0acac;
     text-align: center;
     border: black; solid 2px;
-    margin-left: 25vw;
+    margin-left: 50%;
     width: 150vw;
     height: 20vh;
     flex-direction: flex-start;
 }
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 3vh;
+    font-size: 2.5vw;
+    text-decoration: none;
+    height: 3vh;
+    width:  3vw;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: Blue;
+    color: white;
+}
+.headerBrayan{
+    width: 250%;
+    background-image: none;
+    border: none;
+}
+#formulaire{
+    height: 320vh;
+    width: 20vw;
+}
+

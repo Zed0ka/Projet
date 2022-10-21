@@ -314,11 +314,11 @@ form{
         text-align: center;
         padding-top: 50px;
         border:black solid 2px;
-        margin-left: 5vw;
+        margin-left: 5%;
         width: 90vw;
 }
 
-/* On essaye une navbar mais c'est pas très clair *
+ /*On essaye une navbar mais c'est pas très clair */
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -344,9 +344,33 @@ form{
     background-color: Blue;
     color: white;
 }
-header{
-    width: 99vw;
+.headerBrayan{
+    width: 100%;
+    background-image: none;
+    border: none;
+
 }
+/* Formulaire CSS A L'AIDE */
+
+
+
+input,label {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
+    font-style: italic;
+    color: black;
+    
+}
+fieldset{
+    border-color: gold;
+    color: red;
+}
+#formulaire{
+    height: 120vh;
+}
+
 
 
 
