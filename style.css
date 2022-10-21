@@ -1,12 +1,5 @@
 /*Code de Cédric*/
 
-@font-face {
-    font-family: Overbyte;
-    src :url(fonts/ccoverbyteoffregular.otf) format(woff2),
-        url(fonts/ccoverbyteoffregular.otf) format(truetype),
-        url(fonts/ccoverbyteoffregular.otf) format(woff),     
-}
-
 /* Bannière des pages du site "Shoryu not shoryu"*/
 header {
     position: absolute sticky;
@@ -21,7 +14,7 @@ header {
 
 .headerh1 {
     position: relative;
-    font-family: Overbyte;
+    font-family: "Overbyte";
     font-size: 40px;
     margin:0;
     margin-bottom: 2vh;
@@ -153,13 +146,13 @@ a:visited {
 /* Page Gallerie */
 
 .galleryBody {
-        background-image: url(img_home/SFstage01.jpg);
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-size: 100vw 150vh;
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 0.5fr 4fr 1fr;
+    background-image: url(img_home/SFstage01.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 100vw 150vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 0.5fr 4fr 1fr;
 }
 
 .homenav ul {
