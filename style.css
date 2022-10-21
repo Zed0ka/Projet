@@ -334,11 +334,62 @@ form{
         text-align: center;
         padding-top: 50px;
         border:black solid 2px;
-        margin-left: 5vw;
+        margin-left: 5%;
         width: 90vw;
 }
 
+ /*On essaye une navbar mais c'est pas très clair */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 3vh;
+    font-size: 1vw;
+    text-decoration: none;
+    height: 3vh;
+    width:  3vw;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: Blue;
+    color: white;
+}
+.headerBrayan{
+    width: 100%;
+    background-image: none;
+    border: none;
 
+}
+/* Formulaire CSS A L'AIDE */
+
+
+
+input,label {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
+    font-style: italic;
+    color: black;
+    
+}
+fieldset{
+    border-color: gold;
+    color: red;
+}
+#formulaire{
+    height: 120vh;
+}
 
 
 
