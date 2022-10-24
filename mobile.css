@@ -125,7 +125,8 @@ footer p {
 #blog1 {
     display: grid;
     grid-template-columns:0.5fr 1fr;
-    grid-template-rows: 1fr 1fr 0.4fr;
+    grid-template-rows:  1fr 0.4fr;
+    color: lightgrey;
 }
 
 #blog1 > p {
@@ -133,6 +134,8 @@ footer p {
     grid-column: 1;
     font-size: 2vh;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    border:solid 1px #ddd;
 }
 
 #blog1 > ul {
@@ -142,16 +145,20 @@ footer p {
     font-size: 2vh;
     align-self: start;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+
 }
 #blog1 > img{
     grid-column: 1;
     grid-row: 2;
     justify-self: left;
+    border:solid 1px #ddd;
 }
 #blog1 > iframe{
     grid-column: 2;
     grid-row: 2;
     justify-self: right;
+    border:solid 1px #ddd;
     
 }
 
@@ -159,6 +166,7 @@ footer p {
     display: grid;
     grid-template-columns:0.5fr 1fr;
     grid-template-rows:0.4fr 1fr 0.4fr;
+    color: lightgrey;
 }
 
 #blog2 > p {
@@ -166,6 +174,9 @@ footer p {
     grid-column: 1;
     font-size: 2vh;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    border:solid 1px #ddd;
+
 }
 
 #blog2 > ul {
@@ -175,29 +186,37 @@ footer p {
     font-size: 2vh;
     align-self: start;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+
 }
 
 #blog2 > img{
     grid-column: 1;
     grid-row:2;
+    border:solid 1px #ddd;
 }
 
 #blog2 > iframe{
     grid-column: 2;
     grid-row: 2;
     justify-self: right;
+    border:solid 1px #ddd;
 }
 #blog3{
     display: grid;
     grid-template-columns:0.5fr 1fr;
     grid-template-rows:0.4fr 1fr 0.4fr;
+    color: lightgrey;
 }
+
 
 #blog3 > p {
     grid-row: 3;
     grid-column: 1;
     font-size: 2vh;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    border:solid 1px #ddd;
 }
 
 #blog3 > ul {
@@ -207,6 +226,8 @@ footer p {
     font-size: 2vh;
     align-self: start;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+
 }
 
 #blog3 > img{
@@ -214,15 +235,20 @@ footer p {
     height: 400;
     grid-column: 1;
     grid-row:2;
+    border:solid 1px #ddd;
 }
 #blog3 > iframe{
     grid-column: 2;
     grid-row: 2;
     justify-self: right;
+    border:solid 1px #ddd;
 }
 
 body{
-    background: #b0acac ;
+    background-image: url(img_home/SFstage01.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 250vw 400vh;
 
 }
 
@@ -235,13 +261,14 @@ hr {
 }
 .footerBrayan{   /*Footer renommé pour pas défoncer littéralement la page d'accueil*/
     display: flex;
-    background-color: #b0acac;
     text-align: center;
-    border: black solid 2px;
     margin-left: 50%;
     width: 150vw;
     height: 20vh;
     flex-direction: flex-start;
+    background-color: rgba(0, 0, 0, 0.411);
+    color: lightgray;
+    border:solid 1px #ddd;
 }
 .topnav {
     overflow: hidden;

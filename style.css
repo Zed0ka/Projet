@@ -185,11 +185,13 @@ a:visited {
 
  /* Code de Brayan*/
  /* Page du Blog */
-
+ 
 #blog1 {
     display: grid;
     grid-template-columns:0.5fr 1fr 0.5fr;
     grid-template-rows: 1fr 1fr 0.4fr;
+    color: lightgrey;
+
 }
 
 #blog1 > p {
@@ -197,6 +199,9 @@ a:visited {
     grid-column: 2;
     font-size: 2vh;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    border:solid 1px #ddd;
+
 }
 
 #blog1 > ul {
@@ -206,15 +211,20 @@ a:visited {
     font-size: 2vh;
     align-self: end;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    border:solid 1px #ddd;
+
 }
 #blog1 > img{
     grid-column: 1;
     grid-row: 2;
+    border:solid 1px #ddd;
 }
 #blog1 > iframe{
     grid-column: 3;
     grid-row: 2;
     justify-self: right;
+    border:solid 1px #ddd;
     
 }
 
@@ -222,6 +232,8 @@ a:visited {
     display: grid;
     grid-template-columns:0.5fr 1fr 0.5fr;
     grid-template-rows:0.4fr 1fr 0.4fr;
+    color: lightgrey;
+
 }
 
 #blog2 > p {
@@ -229,6 +241,9 @@ a:visited {
     grid-column: 2;
     font-size: 2vh;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    border:solid 1px #ddd;
+
 }
 
 #blog2 > ul {
@@ -238,22 +253,29 @@ a:visited {
     font-size: 2vh;
     align-self: end;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    border:solid 1px #ddd;
+
 }
 
 #blog2 > img{
     grid-column: 1;
     grid-row:2;
+    border:solid 1px #ddd;
 }
 
 #blog2 > iframe{
     grid-column: 3;
     grid-row: 2;
     justify-self: right;
+    border:solid 1px #ddd;
 }
 #blog3{
     display: grid;
     grid-template-columns:0.5fr 1fr 0.5fr;
     grid-template-rows:0.4fr 1fr 0.4fr;
+    color: lightgrey;
+
 }
 
 #blog3 > p {
@@ -261,6 +283,9 @@ a:visited {
     grid-column: 2;
     font-size: 2vh;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    border:solid 1px #ddd;
+
 }
 
 #blog3 > ul {
@@ -270,6 +295,9 @@ a:visited {
     font-size: 2vh;
     align-self: end;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    border:solid 1px #ddd;
+
 }
 
 #blog3 > img{
@@ -277,16 +305,20 @@ a:visited {
     height: 400;
     grid-column: 1;
     grid-row:2;
+    border:solid 1px #ddd;
 }
 #blog3 > iframe{
     grid-column: 3;
     grid-row: 2;
     justify-self: right;
+    border:solid 1px #ddd;
 }
 
 body{
-    background: #b0acac ;
-
+    background-image: url(img_home/SFstage01.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 100vw 250vh;
 }
 
 hr {
@@ -294,7 +326,18 @@ hr {
     size: 1vhx;
     width: 80vw;  
     border-style: dashed;
+    color: lightgrey;
+
 }
+
+
+.lien{
+    color: lightgray;
+}
+.lien:active{
+    color: red;
+}
+
 
 /*Page de contact*/
 
@@ -321,9 +364,29 @@ form{
     grid-column:3 ;
     grid-row: 2;
 }
+input,label {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
+    font-style: italic;
+    color: lightgray;
+    
+}
+fieldset{
+    border-color:white ;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+#formulaire{
+    height: 175vh;
+}
+.button{
+    color: black;
+}
+
 
 .footerBrayan{   /*Footer renommé pour pas défoncer littéralement la page d'accueil*/
-        background-color: #b0acac;
         text-align: center;
         padding-top: 50px;
         border:black solid 2px;
@@ -334,7 +397,8 @@ form{
  /*On essaye une navbar mais c'est pas très clair */
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.411);
+    border: solid 1px white;
   }
   
   .topnav a {
@@ -353,36 +417,16 @@ form{
     color: black;
   }
   
-  .topnav a.active {
-    background-color: Blue;
-    color: white;
-}
 .headerBrayan{
     width: 100%;
     background-image: none;
     border: none;
 
 }
-/* Formulaire CSS A L'AIDE */
 
 
 
-input,label {
-    width: 200px;
-    display: inline-block;
-    vertical-align: top;
-    margin: 6px;
-    font-style: italic;
-    color: black;
-    
-}
-fieldset{
-    border-color: gold;
-    color: red;
-}
-#formulaire{
-    height: 175vh;
-}
+
 
 
 
