@@ -125,7 +125,7 @@ footer p {
 /* Pour l'instant c'est mon max du responsive */
 #blog1 {
     display: grid;
-    grid-template-columns:0.5fr 1fr;
+    grid-template-columns:0.5fr 0.3fr 1fr;
     grid-template-rows:  1fr 0.4fr;
     color: lightgrey;
 }
@@ -147,6 +147,7 @@ footer p {
     align-self: start;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.411);
+    margin-left: 15vh;
 
 }
 #blog1 > img{
@@ -160,12 +161,13 @@ footer p {
     grid-row: 2;
     justify-self: right;
     border:solid 1px #ddd;
+    margin-left: 15vh;
     
 }
 
 #blog2{
     display: grid;
-    grid-template-columns:0.5fr 1fr;
+    grid-template-columns:0.5fr 0.3fr 1fr;
     grid-template-rows:0.4fr 1fr 0.4fr;
     color: lightgrey;
 }
@@ -188,6 +190,7 @@ footer p {
     align-self: start;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.411);
+    margin-left: 15vh;
 
 }
 
@@ -202,6 +205,7 @@ footer p {
     grid-row: 2;
     justify-self: right;
     border:solid 1px #ddd;
+    margin-left: 15vh;
 }
 #blog3{
     display: grid;
@@ -228,6 +232,7 @@ footer p {
     align-self: start;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.411);
+    margin-left: 15vh;
 
 }
 
@@ -243,6 +248,7 @@ footer p {
     grid-row: 2;
     justify-self: right;
     border:solid 1px #ddd;
+    margin-left: 15vh;
 }
 
 body{
@@ -278,8 +284,10 @@ hr {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 3vh;
-    font-size: 2.5vw;
+    align-self:center ;
+    padding-right:21vw ;
+    padding-bottom: 8.5vh;
+    font-size: 3.5vh;
     text-decoration: none;
     height: 3vh;
     width:  3vw;
