@@ -165,7 +165,8 @@
     text-align: center;
     background-color: rgba(0, 0, 0, 0.411);
     border:solid 1px #ddd;
-
+    align-self: center;
+    justify-self: center;
 }
 
 #blog1 > ul {
@@ -208,6 +209,8 @@
     text-align: center;
     background-color: rgba(0, 0, 0, 0.411);
     border:solid 1px #ddd;
+    align-self: center;
+    justify-self: center;
 }
 
 #blog2 > ul {
@@ -250,6 +253,8 @@
     text-align: center;
     background-color: rgba(0, 0, 0, 0.411);
     border:solid 1px #ddd;
+    align-self: center;
+    justify-self: center;
 
 }
 
