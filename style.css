@@ -151,11 +151,13 @@
 
  /* Code de Brayan*/
  /* Page du Blog */
-
+ 
 #blog1 {
     display: grid;
     grid-template-columns:0.5fr 1fr 0.5fr;
     grid-template-rows: 1fr 1fr 0.4fr;
+    color: lightgrey;
+
 }
 
 #blog1 > p {
@@ -163,6 +165,9 @@
     grid-column: 2;
     font-size: 2vh;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    border:solid 1px #ddd;
+
 }
 
 #blog1 > ul {
@@ -172,15 +177,20 @@
     font-size: 2vh;
     align-self: end;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    border:solid 1px #ddd;
+
 }
 #blog1 > img{
     grid-column: 1;
     grid-row: 2;
+    border:solid 1px #ddd;
 }
 #blog1 > iframe{
     grid-column: 3;
     grid-row: 2;
     justify-self: right;
+    border:solid 1px #ddd;
     
 }
 
@@ -188,6 +198,8 @@
     display: grid;
     grid-template-columns:0.5fr 1fr 0.5fr;
     grid-template-rows:0.4fr 1fr 0.4fr;
+    color: lightgrey;
+
 }
 
 #blog2 > p {
@@ -195,6 +207,9 @@
     grid-column: 2;
     font-size: 2vh;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    border:solid 1px #ddd;
+
 }
 
 #blog2 > ul {
@@ -204,22 +219,29 @@
     font-size: 2vh;
     align-self: end;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    border:solid 1px #ddd;
+
 }
 
 #blog2 > img{
     grid-column: 1;
     grid-row:2;
+    border:solid 1px #ddd;
 }
 
 #blog2 > iframe{
     grid-column: 3;
     grid-row: 2;
     justify-self: right;
+    border:solid 1px #ddd;
 }
 #blog3{
     display: grid;
     grid-template-columns:0.5fr 1fr 0.5fr;
     grid-template-rows:0.4fr 1fr 0.4fr;
+    color: lightgrey;
+
 }
 
 #blog3 > p {
@@ -227,6 +249,9 @@
     grid-column: 2;
     font-size: 2vh;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    border:solid 1px #ddd;
+
 }
 
 #blog3 > ul {
@@ -236,31 +261,52 @@
     font-size: 2vh;
     align-self: end;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    border:solid 1px #ddd;
+
 }
 
 #blog3 > img{
-    width: 400;
-    height: 400;
+    width: 400px;
+    height: 400px;
     grid-column: 1;
     grid-row:2;
+    border:solid 1px #ddd;
 }
 #blog3 > iframe{
     grid-column: 3;
     grid-row: 2;
     justify-self: right;
+    border:solid 1px #ddd;
 }
 
 body{
-    background: #b0acac ;
-
+    background-image: url(img_home/SFstage01.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 100vw 250vh;
 }
 
 hr {
     align-self: center;
-    size: 1vhx;
     width: 80vw;  
     border-style: dashed;
+    color: lightgrey;
+
 }
+
+
+.lien:link{
+    color: lightgray;
+}
+.lien:visited{
+    color: gold;
+}
+.lien:active{
+    color: green;
+}
+
+
 
 /*Page de contact*/
 
@@ -287,20 +333,44 @@ form{
     grid-column:3 ;
     grid-row: 2;
 }
+input,label {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
+    font-style: italic;
+    color: lightgray;
+    
+}
+fieldset{
+    border-color:white ;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+#formulaire{
+    height: 175vh;
+}
+.button{
+    color: black;
+}
+
 
 .footerBrayan{   /*Footer renommé pour pas défoncer littéralement la page d'accueil*/
-        background-color: #b0acac;
         text-align: center;
         padding-top: 50px;
         border:black solid 2px;
         margin-left: 5%;
         width: 90vw;
+        background-color: rgba(0, 0, 0, 0.411);
+        color: lightgray;
+        border:solid 1px #ddd;
 }
 
  /*On essaye une navbar, c'était pas clair mais çà va mieux */
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.411);
+    border: solid 1px white;
   }
   
   .topnav a {
@@ -319,10 +389,6 @@ form{
     color: black;
   }
   
-  .topnav a.active {
-    background-color: Blue;
-    color: white;
-}
 .headerBrayan{
     width: 100%;
     background-image: none;

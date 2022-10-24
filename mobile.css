@@ -92,10 +92,12 @@ footer p {
 }
 
 /* Code de Brayan */
+/* Pour l'instant c'est mon max du responsive */
 #blog1 {
     display: grid;
-    grid-template-columns:0.5fr 1fr;
-    grid-template-rows: 1fr 1fr 0.4fr;
+    grid-template-columns:0.5fr 0.3fr 1fr;
+    grid-template-rows:  1fr 0.4fr;
+    color: lightgrey;
 }
 
 #blog1 > p {
@@ -103,6 +105,8 @@ footer p {
     grid-column: 1;
     font-size: 2vh;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    border:solid 1px #ddd;
 }
 
 #blog1 > ul {
@@ -112,23 +116,30 @@ footer p {
     font-size: 2vh;
     align-self: start;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    margin-left: 15vh;
+
 }
 #blog1 > img{
     grid-column: 1;
     grid-row: 2;
     justify-self: left;
+    border:solid 1px #ddd;
 }
 #blog1 > iframe{
     grid-column: 2;
     grid-row: 2;
     justify-self: right;
+    border:solid 1px #ddd;
+    margin-left: 15vh;
     
 }
 
 #blog2{
     display: grid;
-    grid-template-columns:0.5fr 1fr;
+    grid-template-columns:0.5fr 0.3fr 1fr;
     grid-template-rows:0.4fr 1fr 0.4fr;
+    color: lightgrey;
 }
 
 #blog2 > p {
@@ -136,6 +147,9 @@ footer p {
     grid-column: 1;
     font-size: 2vh;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    border:solid 1px #ddd;
+
 }
 
 #blog2 > ul {
@@ -145,29 +159,39 @@ footer p {
     font-size: 2vh;
     align-self: start;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    margin-left: 15vh;
+
 }
 
 #blog2 > img{
     grid-column: 1;
     grid-row:2;
+    border:solid 1px #ddd;
 }
 
 #blog2 > iframe{
     grid-column: 2;
     grid-row: 2;
     justify-self: right;
+    border:solid 1px #ddd;
+    margin-left: 15vh;
 }
 #blog3{
     display: grid;
     grid-template-columns:0.5fr 1fr;
     grid-template-rows:0.4fr 1fr 0.4fr;
+    color: lightgrey;
 }
+
 
 #blog3 > p {
     grid-row: 3;
     grid-column: 1;
     font-size: 2vh;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    border:solid 1px #ddd;
 }
 
 #blog3 > ul {
@@ -177,41 +201,49 @@ footer p {
     font-size: 2vh;
     align-self: start;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    margin-left: 15vh;
+
 }
 
 #blog3 > img{
-    width: 400;
-    height: 400;
+    width: 400px;
+    height: 400px;
     grid-column: 1;
     grid-row:2;
+    border:solid 1px #ddd;
 }
 #blog3 > iframe{
     grid-column: 2;
     grid-row: 2;
     justify-self: right;
+    border:solid 1px #ddd;
+    margin-left: 15vh;
 }
 
 body{
-    background: #b0acac ;
+    background-image: url(img_home/SFstage01.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 270vw 400vh;
 
 }
 
 hr {
     align-self: center;
-    size: 1vh;
     width: 120vw; 
     margin-left: 45%; 
     border-style: dashed;
 }
 .footerBrayan{   /*Footer renommé pour pas défoncer littéralement la page d'accueil*/
     display: flex;
-    background-color: #b0acac;
     text-align: center;
-    border: black solid 2px;
     margin-left: 50%;
     width: 150vw;
     height: 20vh;
-    flex-direction: flex-start;
+    background-color: rgba(0, 0, 0, 0.411);
+    color: lightgray;
+    border:solid 1px #ddd;
 }
 .topnav {
     overflow: hidden;
@@ -222,8 +254,10 @@ hr {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 3vh;
-    font-size: 2.5vw;
+    align-self:center ;
+    padding-right:21vw ;
+    padding-bottom: 8.5vh;
+    font-size: 3.5vh;
     text-decoration: none;
     height: 3vh;
     width:  3vw;
