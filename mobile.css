@@ -8,6 +8,12 @@
     align-self: center;
     padding-right: 15.5vw;
     padding-bottom: 8.5vh;
+    border: solid lightgrey 2px;
+    border-collapse: collapse;
+}
+
+.headerCedric {
+    height: 14.9vh;
 }
 
 /* Page Home */
@@ -80,8 +86,8 @@ footer p {
     min-height: 99vh;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
-    overflow: clip;
+    justify-content: center;
+    overflow: scroll;
     background-color:rgba(0, 0, 0, 0.411);
     color: lightgrey;
 }

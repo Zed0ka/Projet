@@ -11,8 +11,6 @@
     height: 3vh;
     width:  1.88vw;
     color: lightgrey;
-    border: solid lightgrey 2px;
-    border-collapse: collapse;
 }
   
 .topnavCedric a:hover {
@@ -26,6 +24,7 @@
     grid-column: 1/4;
     background-color:rgba(0, 0, 0, 0.600);
     border: solid lightgrey 2px;
+    height: 9.3vh;
 }
 
 /* Footer des pages*/
@@ -143,7 +142,7 @@
     grid-row: 2;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
     overflow: scroll;
     background-color:rgba(0, 0, 0, 0.411);
     color: lightgrey;
@@ -157,7 +156,6 @@
     grid-template-columns:0.5fr 1fr 0.5fr;
     grid-template-rows: 1fr 1fr 0.4fr;
     color: lightgrey;
-
 }
 
 #blog1 > p {
@@ -186,6 +184,7 @@
     grid-row: 2;
     border:solid 1px #ddd;
 }
+
 #blog1 > iframe{
     grid-column: 3;
     grid-row: 2;
@@ -209,7 +208,6 @@
     text-align: center;
     background-color: rgba(0, 0, 0, 0.411);
     border:solid 1px #ddd;
-
 }
 
 #blog2 > ul {
@@ -236,6 +234,7 @@
     justify-self: right;
     border:solid 1px #ddd;
 }
+
 #blog3{
     display: grid;
     grid-template-columns:0.5fr 1fr 0.5fr;
@@ -273,6 +272,7 @@
     grid-row:2;
     border:solid 1px #ddd;
 }
+
 #blog3 > iframe{
     grid-column: 3;
     grid-row: 2;
@@ -316,6 +316,7 @@ hr {
     grid-template-rows: 0.4fr 1fr 0.4fr;
     text-align: center;
 }
+
 form{
     grid-column: 2;
     grid-row: 2;
@@ -323,16 +324,19 @@ form{
     text-align: left;
     border-color:black ;
 }
+
 #xayah{
     grid-column: 1;
     grid-row: 2;
     justify-self: right;
     
 }
+
 #rakan{
     grid-column:3 ;
     grid-row: 2;
 }
+
 input,label {
     width: 200px;
     display: inline-block;
@@ -340,22 +344,23 @@ input,label {
     margin: 6px;
     font-style: italic;
     color: lightgray;
-    
 }
+
 fieldset{
-    border-color:white ;
+    border-color:white;
     color: red;
     background-color: rgba(0, 0, 0, 0.411);
 }
+
 #formulaire{
     height: 175vh;
 }
+
 .button{
     color: black;
 }
 
-
-.footerBrayan{   /*Footer renommé pour pas défoncer littéralement la page d'accueil*/
+.footerBrayan{   /*Footer renommé*/
         text-align: center;
         padding-top: 50px;
         border:black solid 2px;
@@ -394,26 +399,6 @@ fieldset{
     background-image: none;
     border: none;
 
-}
-/* Formulaire CSS */
-
-
-
-input,label {
-    width: 200px;
-    display: inline-block;
-    vertical-align: top;
-    margin: 6px;
-    font-style: italic;
-    color: black;
-    
-}
-fieldset{
-    border-color: gold;
-    color: red;
-}
-#formulaire{
-    height: 175vh;
 }
 
 
