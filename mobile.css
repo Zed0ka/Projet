@@ -122,6 +122,7 @@ footer p {
 }
 
 /* Code de Brayan */
+/* Pour l'instant c'est mon max du responsive */
 #blog1 {
     display: grid;
     grid-template-columns:0.5fr 1fr;
