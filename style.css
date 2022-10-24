@@ -329,18 +329,6 @@ form{
     border-color:black ;
 }
 
-#xayah{
-    grid-column: 1;
-    grid-row: 2;
-    justify-self: right;
-    
-}
-
-#rakan{
-    grid-column:3 ;
-    grid-row: 2;
-}
-
 input,label {
     width: 200px;
     display: inline-block;
