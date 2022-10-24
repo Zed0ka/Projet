@@ -301,8 +301,8 @@ a:visited {
 }
 
 #blog3 > img{
-    width: 400;
-    height: 400;
+    width: 400px;
+    height: 400px;
     grid-column: 1;
     grid-row:2;
     border:solid 1px #ddd;
@@ -323,7 +323,6 @@ body{
 
 hr {
     align-self: center;
-    size: 1vhx;
     width: 80vw;  
     border-style: dashed;
     color: lightgrey;
@@ -331,12 +330,16 @@ hr {
 }
 
 
-.lien{
+.lien:link{
     color: lightgray;
 }
-.lien:active{
-    color: red;
+.lien:visited{
+    color: gold;
 }
+.lien:active{
+    color: green;
+}
+
 
 
 /*Page de contact*/
@@ -392,6 +395,9 @@ fieldset{
         border:black solid 2px;
         margin-left: 5%;
         width: 90vw;
+        background-color: rgba(0, 0, 0, 0.411);
+        color: lightgray;
+        border:solid 1px #ddd;
 }
 
  /*On essaye une navbar mais c'est pas très clair */
@@ -423,11 +429,3 @@ fieldset{
     border: none;
 
 }
-
-
-
-
-
-
-
-

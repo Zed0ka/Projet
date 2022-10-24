@@ -231,8 +231,8 @@ footer p {
 }
 
 #blog3 > img{
-    width: 400;
-    height: 400;
+    width: 400px;
+    height: 400px;
     grid-column: 1;
     grid-row:2;
     border:solid 1px #ddd;
@@ -248,13 +248,12 @@ body{
     background-image: url(img_home/SFstage01.jpg);
     background-repeat: no-repeat;
     object-fit: cover;
-    background-size: 250vw 400vh;
+    background-size: 270vw 400vh;
 
 }
 
 hr {
     align-self: center;
-    size: 1vh;
     width: 120vw; 
     margin-left: 45%; 
     border-style: dashed;
@@ -265,7 +264,6 @@ hr {
     margin-left: 50%;
     width: 150vw;
     height: 20vh;
-    flex-direction: flex-start;
     background-color: rgba(0, 0, 0, 0.411);
     color: lightgray;
     border:solid 1px #ddd;
